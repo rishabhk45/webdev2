@@ -6,10 +6,10 @@
 <body>
     <h2>Student Result Program</h2>
     <script>
-        var subjects = prompt("Enter number of subjects");
+        var subjects = prompt("Enter number of subjects: ");
         var total = 0;
         for (var i = 1; i <= subjects; i++) {
-            var marks = prompt("Enter marks of subject " + i);
+            var marks = prompt("Enter marks of subject: " + i);
             total = total + Number(marks);
         }
         var average = total / subjects;
